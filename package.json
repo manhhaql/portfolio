@@ -1,0 +1,14 @@
+{
+  "name": "hamanh.com",
+  "version": "1.0.0",
+  "description": "Ha's Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/"
+  },
+  "author": "hamanh",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}

@@ -1,0 +1,40 @@
+ .text-primary {
+    color: $main-color;
+}
+.text-white {
+    color: $light-color;
+}
+.text-hero {
+    font-size: 4rem;
+}
+
+// buttons
+%btn-shared {
+    display: inline-block;
+    border: 1px solid $main-color;
+    transition: all 0.5s;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.btn {
+    &-lg {
+        @extend %btn-shared;
+        padding: 0.5rem 1.5rem;
+    }
+    &-md {
+        @extend %btn-shared;
+        padding: 0.4rem 1.2rem;
+    }
+    &-sm {
+        @extend %btn-shared;
+        padding: 0.3rem 0.9rem;
+    }
+}
+
+button[class^="btn"]:hover,
+a[class^="btn"]:hover,
+input[class^="btn"]:hover {
+    background-color: $main-light-color;
+    box-shadow: 0 0 10px $main-color, 0 0 40px $main-color, 0 0 80px $main-color;
+}
