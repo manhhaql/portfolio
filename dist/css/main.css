@@ -641,8 +641,8 @@ section {
 
 @-webkit-keyframes right-to-left {
   from {
-    -webkit-transform: translateX(300px);
-            transform: translateX(300px);
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
     opacity: 0;
   }
   to {
@@ -654,8 +654,8 @@ section {
 
 @keyframes right-to-left {
   from {
-    -webkit-transform: translateX(300px);
-            transform: translateX(300px);
+    -webkit-transform: translateX(100px);
+            transform: translateX(100px);
     opacity: 0;
   }
   to {
@@ -750,8 +750,14 @@ section {
     padding: 0.5rem;
     text-align: center;
   }
-  #about {
+  .content {
     padding: 50px 0;
+    position: relative;
+    max-width: 300px;
+    margin: 0px auto;
+  }
+  #about {
+    padding: 120px 0;
   }
   #about .about-wrapper {
     display: block;
@@ -765,14 +771,8 @@ section {
   #about .about-img {
     margin: 60px auto 0px;
   }
-  .content {
-    padding: 50px 0;
-    position: relative;
-    max-width: 300px;
-    margin: 0px auto;
-  }
   #experience {
-    padding: 50px 0;
+    padding: 120px 0;
   }
   #experience .experience-wrapper {
     display: block;
@@ -781,14 +781,14 @@ section {
     margin-bottom: 50px;
   }
   #project {
-    padding: 50px 0;
+    padding: 120px 0;
   }
   #project .projects-wrapper {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
   }
   #contact {
-    padding: 50px 0;
+    padding: 120px 0;
   }
   #contact .contact-wrapper {
     margin: auto;

@@ -453,7 +453,7 @@ section {
 }
 @keyframes right-to-left {
     from{
-        transform: translateX(300px);
+        transform: translateX(100px);
         opacity: 0;
     }
     to {
@@ -536,8 +536,14 @@ section {
             text-align: center;
         }
     }
-    #about {
+    .content {
         padding: 50px 0;
+        position: relative;
+        max-width: 300px;
+        margin: 0px auto;
+    }
+    #about {
+        padding: 120px 0;
         .about-wrapper {
             display: block;
         }
@@ -551,14 +557,8 @@ section {
             margin: 60px auto 0px;
         }
     }
-    .content {
-        padding: 50px 0;
-        position: relative;
-        max-width: 300px;
-        margin: 0px auto;
-    }
     #experience {
-        padding: 50px 0;
+        padding: 120px 0;
         .experience-wrapper {
             display: block;
             .experience-img {
@@ -567,14 +567,14 @@ section {
         }
     }
     #project {
-        padding: 50px 0;
+        padding: 120px 0;
         .projects-wrapper {
             grid-template-columns: repeat(1, 1fr);
         }
     }
 
     #contact {
-        padding: 50px 0;
+        padding: 120px 0;
         .contact-wrapper {
             margin: auto;
         }
