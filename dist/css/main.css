@@ -120,6 +120,15 @@ section {
 .left-bar .social i {
   margin-bottom: 2rem;
   font-size: 1.3rem;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  cursor: pointer;
+}
+
+.left-bar .social i:hover {
+  color: #ffbc00;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
 }
 
 .left-bar .social::after {

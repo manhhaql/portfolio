@@ -60,6 +60,12 @@ section {
         i {
             margin-bottom: 2rem;
             font-size: 1.3rem;
+            transition: all 500ms;
+            cursor: pointer;
+        }
+        i:hover {
+            color: $main-color;
+            transform: scale(1.25);
         }
         &::after {
             content: '';
