@@ -57,13 +57,13 @@ section {
     .social {
         display: flex;
         flex-direction: column;
-        i {
+        a {
             margin-bottom: 2rem;
             font-size: 1.3rem;
             transition: all 500ms;
-            cursor: pointer;
+            color: $medium-color;;
         }
-        i:hover {
+        a:hover {
             color: $main-color;
             transform: scale(1.25);
         }
@@ -139,7 +139,7 @@ section {
     border: 1.5px solid $main-color;
     width: 60px;
     height: 60px;
-    border-radius: 50%;
+    border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -151,7 +151,7 @@ section {
     &:hover{
         background-color: $main-light-color;
         transform: scale(1.2) rotate(180deg);
-        border-radius: 5px;
+        border-radius: 50%;
     }
 }
 
